@@ -1,0 +1,2 @@
+Firstly, composition is when an object owns another object, however when an object uses another object it's an aggregation.
+Secondly, by using move constructor in a composition or an aggregation we can reduce unnecessary memory, hence we can prevent more memory allocation and deallocation.

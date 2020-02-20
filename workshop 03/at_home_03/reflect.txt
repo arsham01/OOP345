@@ -1,0 +1,47 @@
+The main reason that makes us to create sum member function is that we have to keep track of the values and in that way if the new key is equal to the key of the current object we add the very new value to the current object's value.
+We add initial value to an object because that value depends on the type of the key that we want to pass, hence it should be defined seperately.
+Finally, the fact is that the main reason that we define a class variable outside of the class is under the scope of encapsulation and we do this figure to prevent privacy issues and also using friend keyword.
+Q3-------
+
+Q4-------
+5.c
+6.a
+9.b
+10.a
+11.b
+12.b
+14.e
+15.e
+19.c
+Q5-------
+1.A
+2.B
+3.C
+4.B
+5.A
+6.A
+7.D
+8.D
+9.D
+10.A
+11.D
+12.B
+13.E
+14.A
+15.E
+16.A
+17.A
+18.B
+19.C
+20.A
+21.D
+22.E
+23.B
+24.E
+25.C
+26.D
+27.E
+
+
+
+

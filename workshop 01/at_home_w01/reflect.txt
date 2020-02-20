@@ -1,0 +1,61 @@
+Firstly, we can figure out the differences between internal and external linkage in this workshop when it comes to declaring the g_sysClock variable; we need to declare this variable as an external linkage using extern keyword to make it usable in other translation units. However, after that in display function for declaring a flag variable to count how many times we should print the output we need to use static keyword to make this variable an internal linkage because we just want to use this one within our module and only in this particular translation unit.
+Secondly, as I mentioned before we used static keyword while declaring a flag variable and it came handy, because we don't want to use this variable again outside of its scope.
+Finally, the very first change I made when I updated the Event module was that I had to change the conditions in display and setDescription function and on other change that I made was using new keyword for dynamically allocate some memory for description and what it does is that at first it will measure the length of the parameter that we passed to function and then copy it to the description member of the object. Additionally, when we want to dynamically allocate memory within our class in addition to contractor we need to define a distractor in order to prevent memory leak, hence I made a distractor to deallocate the dynamic memory.
+
+Quiz 1 reflection ------------------------------------------------------------------------
+1.d
+2.d
+3.b
+4.a
+5.c
+6.c
+7.a
+8.b
+9.a
+10.d
+11.a
+12.c
+13.a
+14.c
+15.c
+16.c
+17.a
+18.b
+19.a
+20.b
+21.a
+22.a
+23.a
+24.a
+25.b
+26.a
+27.b
+28.a
+29.d
+30.a
+31.a
+32.b
+33.a
+34.b
+35.c
+36.a
+37.b
+38.a
+39.b
+40.b
+41.b
+42.b
+43.a
+44.b
+45.b
+46.c
+47.b
+48.d
+Quiz 2 reflection ------------------------------------------------------------------------
+1.d
+2.d
+24.b
+25.a
+26.c
+35.a
+   
